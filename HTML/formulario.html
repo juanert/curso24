@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super formulario</title>
+</head>
+<body>
+  <div>
+    <h1>Mi super fomulario</h1>
+    <!-- la etiqueta form es un formulario -->
+    <form action="https://google.com" method="post" id="idForm" class="classForm">
+      <!-- la propiedad action es una propiedad que nos permite definir la accion del formulario -->
+       <!-- La etiqueta label nos sirve para comunicar al usuario que realizara el input a continuacion -->
+      <label for="name" class="classLabel" id="idLabel">Escribe tu nombre:
+        <!-- La etiqueta input nos sirve para solicitarle informacion al usuario -->
+        <input type="text" name="name" id="name" required >
+        <!-- type es una propiedad que nos permite definir el tipo de input -->
+        <!-- required es una propiedad que nos permite definir que el input es obligatorio -->
+      </label>
+      <label for="age" class="classLabel" id="idLabel">Escribe tu edad:
+         <input type="number" name="age" id="age" placeholder="30" min="0" max="120">
+         <!-- placeholder es una propiedad que nos permite definir un texto que aparecera en el input -->
+          <!-- min y max son propiedades que nos permiten definir un rango de valores para el input -->
+      </label>
+      <label for="email" class="classLabel" id="idLabel">Escribe tu correo:
+         <input type="email" name="email" id="email" required value="kZs5I@example.com">
+          <!-- type email es una propiedad que nos permite definir que el input es un correo electronico , se espera un formato: algo@algo -->
+      </label>
+      <label for="password" class="password" id="idLabel">Escribe tu contraseña:
+          <!-- La etiqueta input con type password nos sirve para solicitarle una contraseña al usuario -->
+          <!-- el texto que se escribe en este input no se muestra, se reemplaza por asteriscos -->
+         <input type="password" name="password" id="password" required >
+          <!-- type email es una propiedad que nos permite definir que el input es un correo electronico , se espera un formato: algo@algo -->
+      </label>
+      <label for="checkbox" class="checkbox" id="idLabel">Selecciona tus preferencias:
+          <!-- La etiqueta input con type password nos sirve para solicitarle una contraseña al usuario -->
+          <!-- el texto que se escribe en este input no se muestra, se reemplaza por asteriscos -->
+         <input type="checkbox" name="checkbox" id="checkbox" required >
+          <!-- type email es una propiedad que nos permite definir que el input es un correo electronico , se espera un formato: algo@algo -->
+      </label>
+      <label for="radio" class="radio" id="idLabel">selecciona tu opcion:
+          <!-- La etiqueta input con type password nos sirve para solicitarle una contraseña al usuario -->
+          <!-- el texto que se escribe en este input no se muestra, se reemplaza por asteriscos -->
+         <input type="radio" name="radio" id="radio" required >
+          <!-- type email es una propiedad que nos permite definir que el input es un correo electronico , se espera un formato: algo@algo -->
+      </label>
+      <label for="range" class="range" id="idLabel">Selecciona tu rango:
+          <!-- La etiqueta input con type password nos sirve para solicitarle una contraseña al usuario -->
+          <!-- el texto que se escribe en este input no se muestra, se reemplaza por asteriscos -->
+         <input type="range" name="range" id="range" required min="0" max="100" value="50">
+          <!-- type email es una propiedad que nos permite definir que el input es un correo electronico , se espera un formato: algo@algo -->
+      </label>
+      <label for="file" class="file" id="idLabel">selecciona tu archivo:
+          <!-- La etiqueta input con type password nos sirve para solicitarle una contraseña al usuario -->
+          <!-- el texto que se escribe en este input no se muestra, se reemplaza por asteriscos -->
+         <input type="file" name="range" id="file" required min="0" max="100" value="50">
+          <!-- type email es una propiedad que nos permite definir que el input es un correo electronico , se espera un formato: algo@algo -->
+      </label>
+      <!-- type es una propiedad que nos permite definir el tipo de boton -->
+      <!-- <input type="button" value="Enviar" > -->
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
