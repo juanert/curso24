@@ -1,0 +1,72 @@
+<!-- !DOCTYPE le indica al navegador que es un documento HTML -->
+<!DOCTYPE html>
+<!-- html es la etiqueta raiz, indica que todo dentro de ella es HTML -->
+<!-- lang es un atributo de la etiqueta html que nos sirve para definir el lenguaje del documento -->
+<html lang="en">
+  <!-- head es la cabecera del documento contiene informacion sobre el documento -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso Lexpin</title>
+  </head>
+
+  <!-- body es el cuerpo del documento, muestra el contenido en la pagina web -->
+  <body>
+    <!-- p es un parrafo se usa para textos de mas de 2 lineas -->
+
+    <!-- Las propiedades son herramientas para dotar de caracteristicas a las etiquetas
+          su sintaxis es: <nombreDeLaEtiqueta nombreDeLaPropiedad= "valorDeLaPropiedad">     
+    -->
+    <p class="classP">Estamos aprendiendo HTML en Lexpin</p>
+    <!-- class es una propiedad que nos permite agrupar etiquetas -->
+
+    <!-- h1 es un encabezado, se usa para titulos, se utiliza 1 por documento -->
+    <h1 class="classTittle" style="color: aqua;">Esto es un titular</h1>
+    <!-- style es una propiedad que nos permite agregar estilos a las etiquetas -->
+
+    <!-- Existen 6 niveles de encabezados, h1 es el mas importante -->
+    <h2 id="idTittle" title="Esto es un subtitulo">Esto es un subtitulo</h2>
+    <!-- id es una propiedad que nos permite identificar etiquetas de manera unica -->
+
+    <!-- h3 es un subtitulo de un subtitulo -->
+    <h3 id="idSub">Esto es un subtitulo de un subtitulo</h3>
+
+    <!-- h4 es un subtitulo de un subtitulo de un subtitulo -->
+    <h4 class="classP">Esto es un subtitulo de un subtitulo de un subtitulo</h4>
+
+    <!-- La etiqueta a "anchor" es un enlace  -->
+    <a href="https://instagram.com/lexpinonline" target="_blank">
+      <!-- href es una propiedad que nos permite definir la direccion del enlace, es exclusiva de la etiqueta -->
+      <!-- target es una propiedad que nos permite definir donde se abrira el enlace -->
+      
+      <!-- span es una etiqueta que nos permite definir un contenedor de texto -->
+      <span class="classSpan" id="idSpan" title="Esto es un enlace">Ir al instagram</span>
+    </a>
+
+    <!-- La etiqueta img es una imagen -->
+    <!-- src es una propiedad que nos permite definir la direccion de la imagen, y es exclusiva de la etiqueta -->
+    <!-- alt es una propiedad que nos permite definir un texto alternativo para la imagen -->
+    <!-- width y height son propiedades que nos permiten definir el ancho y alto de la imagen -->
+    <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFUAfyVe3Easiycyh3isP9wDQTYuSmGPsPQvLIJdEYvQ_DsFq5Ez2Nh_QjiS3oZ3B8ZPfK9cZQyIStmQMV1lDPLw"
+        alt="imagen de un perro"
+        width="250"
+        height="250"
+      />
+
+    <button class="classButton" id="idButton" title="Esto es un boton" onclick="alert('Hola, has presionado el boton')">
+      <!-- button es un boton, se usa para acciones -->
+      <!-- onclick es una propiedad que nos permite definir una accion al hacer click en el boton -->
+      <!-- alert es una accion que nos permite mostrar un mensaje desde el navegador -->
+      Presioname
+    </button>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt error aliquam laborum facere, voluptatum, eligendi debitis quis quam dicta modi ratione iure, exercitationem voluptas! Aliquid vel eos minus.<br><p>Itaque, voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium exercitationem, optio dolores numquam sapiente est similique commodi architecto deleniti aut. Totam aut optio nesciunt reiciendis debitis consectetur minima quo laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in temporibus quo, repellat inventore totam earum perspiciatis fugit velit voluptatum quasi. Ullam eaque inventore voluptates exercitationem doloribus eum et. Voluptates?</p></p>
+
+    <!-- La etiqueta div es una division se usa para agrupar elementos -->
+    <div>
+      <p>Esto es una division</p>
+      <button>Presioname desde el div</button>
+    </div>
+  </body>
+</html>
