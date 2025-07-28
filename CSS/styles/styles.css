@@ -1,0 +1,15 @@
+/*Esto es un selector*/
+p,
+h2 {
+  color: blue;
+  font-size: 20px;
+}
+/*Esto es un selector de clase*/
+.cuerpo_del_parrafo {
+  color: green;
+  font-size: 18px;
+}
+/*Esto es un selector de id*/
+#rojo {
+  color: red;
+}

@@ -1,0 +1,7 @@
+h1 {
+  color: white; /*color de texto*/
+  background-color: blue; /*color de fondo*/
+  text-align: center; /*alineacion del texto*/
+  font-family: Arial, Helvetica, sans-serif; /*tipo de letra*/ 
+  font-size: 24px; /*tamaño de letra*/
+}

@@ -1,0 +1,21 @@
+/*
+  Ejercicios de prioridad.
+  Determina la prioridad de cada uno de los selectores
+
+  p.cuerpo_del_parrafo#rojo{
+    color: black;
+  } 1 1 1
+
+  #rojo #primero{
+    color:green!important; (9999999999)
+  } 2 0 0
+
+  #rojo, #primero{
+    color:yellow;
+  } 1 0 0
+
+  .clase1.clase2#id1{
+    color:blue
+  } 1 2 0
+
+*/
