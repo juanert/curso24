@@ -1,0 +1,46 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  /* alinea los elementos en el eje x */
+  justify-content: space-between;
+  /* alinea los elementos en el eje y */
+  align-items: center;
+  /* flex-wrap: flex-start; */
+  /* flex-wrap: flex-end; */
+  /* flex-wrap: center; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: inherit; */
+}
+
+.logo{
+  width: 100px;
+  height: 50px;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.item{
+  cursor: pointer;
+  background-color: rgba(127, 255, 212, 0.297);
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+/* 
+Crea un contenedor flex con 3 círculos de 50px, distribuidos con espacio entre ellos (space-around).
+*/
