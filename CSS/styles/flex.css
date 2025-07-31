@@ -1,3 +1,16 @@
+/* body{
+  position: relative;
+} */
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  position: sticky;
+  top: 30px;
+}
+
 .navbar{
   display: flex;
   flex-direction: row;
@@ -12,6 +25,12 @@
   /* flex-wrap: wrap-reverse; */
   /* flex-wrap: nowrap; */
   /* flex-wrap: inherit; */
+  background-color: skyblue;
+  border-radius: 15px;
+  width: 80vw;
+  padding: 10px 20px;
+ /*  padding-left: 20px;
+  padding-right: 20px; */
 }
 
 .logo{
@@ -39,6 +58,21 @@ ul{
   border-radius: 5px;
   font-weight: bolder;
   padding: 5px;
+}
+
+.absoluteSection{
+  /* position: absolute; */
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  background-color: rgba(255, 0, 0, 0.5);
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* 

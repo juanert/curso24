@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display:grid;
+  /* grid-template-columns: 200px 1fr; */
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* Ejercicio:
+Grid Básico:
+Crea una cuadrícula de 2x2 (200px x 200px) con 4 celdas. Colorea cada celda y usa gap: 5px. */

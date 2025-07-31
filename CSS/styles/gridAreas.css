@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+body{
+  width: 100%;
+}
+
+.box{
+  width: 100%;
+  background-color: rgb(16, 152, 152);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.container{
+  background-color: rgb(26, 25, 25);
+}
+
+.gridAreas{
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: 100px repeat(3, 1fr) 100px;
+  grid-template-areas: 
+  "navegacion navegacion"
+  "contenido lateral"
+  "contenido lateral"
+  "contenido lateral"
+  "inferior lateral"
+  ;
+  gap: 10px;
+}
+
+#uno{
+  grid-area: navegacion;
+}
+
+#dos{
+  grid-area: contenido;
+}
+
+#tres{
+  grid-area: lateral;
+}
+
+#cuatro{
+  grid-area: inferior;
+}
+
+/* Ejercicio:
+Grid Areas:
+Define un layout de 3 áreas: arriba (20%), centro (60%), abajo (20%). Usa grid-template-areas. */
