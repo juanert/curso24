@@ -94,3 +94,8 @@ alert("El total de la compra es: " + total)
     / division
     ** potencia
 */
+
+let weight = +prompt("Ingrese su peso")
+let height = +prompt("Ingrese su altura en metros")
+const IMC = weight / (height * height)
+alert("Su IMC es: " + IMC)
